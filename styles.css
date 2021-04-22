@@ -1,2 +1,433 @@
-/* My Styles */
 
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ============= My Styles ============= */
+
+body {
+    background: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px
+}
+
+h1 {
+    font-size: 71px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+h2 {
+    font-size:48px;
+    line-height: 1;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 36px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+p {
+    line-height: 1.5;
+    font-size: 100%
+}
+
+.fas fa-search {
+    width:100%;
+}
+
+.intro button .icon {
+    font-size: 21px;
+    line-height: 1.5;
+    font-weight: bold;
+    color: black;
+    background-color: #c78b07; 
+}
+
+
+
+.icon {
+    font-size: 21px;
+    line-height: 1.5;
+    font-weight: bold;
+    color: white;
+    background: black;
+}
+
+.vision .container {
+    background-image: url("images/vision.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+
+/* HEADER */
+header nav {
+    background: #222;
+}
+
+header nav ul li a {
+    display: block;
+    color: #c78b07;
+    font-size: 18px;
+    padding-top: 21px;
+    padding-bottom: 20px;
+    line-height: 1;
+    text-align: center;
+    text-decoration: none;
+    height: 61px;
+    margin-bottom: 1px;
+}
+
+header nav ul li .current a {
+    background: #c78b07;
+    color: #222;
+}
+
+header .logo {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background : #c78b07    
+}
+
+
+#text-area {
+    border: solid 1px black;
+    padding:20px;
+}
+
+.input-label {
+    display:block;
+    margin-bottom:5px;
+}
+
+    #text-area>input {
+    display:block;
+    margin-bottom:20px;
+}
+
+#text-area>label,#text-area>p {
+    font-size:16px;
+    font-weight: bold;
+}
+
+#text-area>input,#message {
+    width:100%;
+}
+
+#message {
+    height:150px;
+}
+
+#radio label {
+    font-size:16px;
+}
+
+
+
+
+.grid-item .operation td, .operation th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+
+
+.grid-item .operation th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #ffe6ad;
+        color: white;
+}
+
+footer {
+    color: #a26f02;
+    background-color: #222222;
+    margin: auto;
+}
+
+@media screen and (min-width: 760px) {
+    
+    header nav {
+        background: #222;
+    }
+    
+    header nav ul li a {
+        display: block;
+        color: #c78b07;
+        font-size: 20px;
+        padding-top: 21px;
+        padding-bottom: 20px;
+        line-height: 1;
+        float: left;
+        text-decoration: none;
+        height: 61px;
+        margin-bottom: 1px;
+    }
+
+
+
+    h1 {
+        font-size: 81px;
+        line-height:112px;
+        font-weight: bold;
+    }
+
+
+    h2 {
+        font-size: 54px;
+        line-height: 1;
+        font-weight: bold;
+    }
+
+    h3 {
+        font-size: 36px;
+        line-height: 1;
+        font-weight: bold;
+    }
+
+    h4 {
+        font-size: 18px;
+        line-height: 1;
+        font-weight: bold;
+    }
+
+    p{
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .fas fa-search {
+        width:100%;
+    }
+    
+    .intro button .icon {
+        font-size: 21px;
+        line-height: 1.5;
+        font-weight: bold;
+        color: black;
+        background-color: #c78b07; 
+    }
+
+    .icon {
+        font-size: 21px;
+        line-height: 1.5;
+        font-weight: bold;
+        color: white;
+        background: black;
+    }
+
+    .vision .container {
+        background-image: url("images/vision.jpg");
+        background-size: cover;
+        background-position: center center;
+    }
+    
+
+    header nav{
+        padding: 0; 
+    }
+
+    header .logo {
+        background: none;
+        padding: 0;
+    }
+
+    .container, .grid-container{
+        width: 760px;
+        background: #ffe6ad;
+        margin: 0 auto;
+    }
+
+    .about .container .about-left {
+        float: left;
+    }
+
+    .about-right {
+        float: right;
+    }
+
+
+    .services .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: 
+          "header header header1 header1"
+          "main main1 main2";
+        }
+
+    .services .container .block:nth-child(1) {
+        grid-area: header;
+    }
+
+    .services .container .block:nth-child(2) {
+        grid-area: header1;
+    }
+
+    .services .container .block:nth-child(3) {
+        grid-area: main;
+    }
+
+    .services .container .block:nth-child(4) {
+        grid-area: main1;
+    }
+
+    .services .container .block:nth-child(5) {
+        grid-area: main2;
+    }
+
+
+    .team .grid-container .block {
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: 
+          "header header1 "
+          "main main1";
+        }
+
+
+    .team .grid-container .block:nth-child(1) {
+        grid-area: header;
+    }
+
+    .team .grid-container .block:nth-child(2) {
+        grid-area: header1;
+    }
+
+    .team .grid-container .block:nth-child(3) {
+        grid-area: main;
+    }
+
+    .team .grid-container .block:nth-child(4) {
+        grid-area: main1;
+    }
+
+
+    .contact .grid-container .grid-item {
+        float: left;
+    }
+
+    #text-area {
+        border: solid 1px black;
+        padding:20px;
+    }
+    
+    .input-label {
+        display:block;
+        margin-bottom:5px;
+    }
+    
+        #text-area>input {
+        display:block;
+        margin-bottom:10px;
+    }
+    
+    #text-area>label,#text-area>p {
+        font-size:8px;
+        font-weight: bold;
+    }
+    
+    #text-area>input,#message {
+        width:50%;
+    }
+    
+    #message {
+        height:75px;
+    }
+    
+    #radio label {
+        font-size:8px;
+    }
+    
+    .location {
+        float: right;
+    }
+
+}
+
+    .grid-item .operation td, .operation th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    }
+
+
+
+    .grid-item .operation th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #ffe6ad;
+        color: white;
+    }
+
+    footer {
+    color: #a26f02;
+    background-color: #222222;
+    margin: auto;
+    }
+
+
+@media screen and (mid-width: 1200px) {
+    .container {
+        width: 1200px;
+
+    }
+}
